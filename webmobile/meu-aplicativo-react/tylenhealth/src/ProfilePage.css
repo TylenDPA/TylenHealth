@@ -1,0 +1,260 @@
+.container {
+    background-color: rgb(233, 251, 255);
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    background-color: #2EB6C8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    position: relative;
+    padding: 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin: auto;
+}
+
+.logo-background {
+    background-color: #fff;
+    padding-left: auto;
+    padding-right: 50px;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 200px;
+    padding: 10px;
+}
+
+.perfil-button {
+    position: absolute;
+    top: 2;
+    margin-bottom: 130px;
+    border: none;
+    width: 50px;
+    margin-right: 20px;
+    margin-top: 10px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.perfil-icon {
+    width: 35px;
+    margin-left: -5px;
+}
+
+.menu-toggle {
+    background-color: white;
+    border-radius: 10px;
+    border-color: white;
+    color: black;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+.nav-container {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #0048ff;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 375px;
+}
+
+.nav-open {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 375px;
+}
+
+.nav-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.content {
+    margin-top: 20px;
+    background-color: #f2f2f2;
+}
+
+.homepage-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.perfil-title {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.perfil-title h1 {
+    margin: 0;
+    color: #333333;
+    font-size: 24px;
+    text-align: center;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-block {
+    display: flex;
+    gap: 20px;
+    width: auto;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.profile-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.profile-item label {
+    font-weight: bold;
+    min-width: 100px;
+}
+
+.profile-item input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.site-info {
+    background-color: #2EB6C8;
+    padding: 15px;
+    margin-top: -1px;
+    border-radius: 20px;
+    width: auto;
+}
+
+.resource {
+    background-color: #2EB6C8;
+    width: auto;
+    padding: 15px;
+    margin-top: -16px;
+    border-radius: 20px;
+}
+
+.resource1 {
+    background-color: #2EB6C8;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    width: auto;
+}
+
+ul,
+p {
+    color: black;
+}
+
+.bloco2,
+.bloco3,
+.bloco4 {
+    background-color: #B7EEFA;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: -16px;
+    margin-left: -15px;
+}
+
+.footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: hwb(352 66% 17%);
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+    height: auto;
+}
+
+.edit-button {
+    background-color: #0048ff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    background-color: #002f85;
+}
+
+.save-button {
+    background-color: #32CD32;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    background-color: #2E8B57;
+}
